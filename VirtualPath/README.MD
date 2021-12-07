@@ -19,6 +19,7 @@ C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /r:System.Web.dll,System
 
 ## 使用
 编译dll, base64编码以后，替换`install.aspx`中的`%%base64%%`字符串。
+反序列操作，可参考: [渗透技巧-利用虚拟文件隐藏ASP.NET-Webshell](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E5%88%A9%E7%94%A8%E8%99%9A%E6%8B%9F%E6%96%87%E4%BB%B6%E9%9A%90%E8%97%8FASP.NET-Webshell)。
 
 **验证：**
 ```

@@ -22,6 +22,8 @@ C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /r:System.Web.dll,System
 ```
 
 ## 使用
+使用方式可参考：[DotNet内存马-HttpListener](https://mp.weixin.qq.com/s/zsPPkhCZ8mhiFZ8sAohw6w)
+
 **验证：**
 ```
 curl http://10.211.55.4/favicon.ico -H "Type: print"
